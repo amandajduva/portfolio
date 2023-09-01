@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Navigation from './components/Navigation';
+import About from './components/About';
+import Resume from './components/Resume';
+import Contact from './components/Contact';
+import Header from './components/Header';
+import Portfolio from './components/Portfolio';
+import Footer from './components/Footer';
 
-function App() {
+
+export default function PortfolioContainer() {
+  const [currentPage, setCurrentPage] = useState('About');
+
+  const renderPage = () => {
+    if (currentPage === 'Resume') {
+      return <Resume />;
+    }
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
+    }
+    return <Contact />;
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className='d-flex justify-content-between align-items-center'>
+        <Header />
+        <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+      </div>
+      <main>
+        {renderPage()}
+      </main>
+      <Footer />
+    </>
   );
 }
-
-export default App;
