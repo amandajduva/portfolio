@@ -70,9 +70,9 @@ function ContactForm() {
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                     <Form.Label>Message</Form.Label>
-                    <Form.Control as="textarea" rows={3} value={message} onChange={handleInputChange} onBlur={handleValidation}/>
+                    <Form.Control as="textarea" rows={3} value={message} onChange={handleInputChange} onBlur={handleValidation} />
                 </Form.Group>
-                <Button type="button" onClick={handleFormSubmit}>Submit</Button>
+                <Button className="btn" type="button" onClick={handleFormSubmit} style={{backgroundColor: '#FF69B4', borderColor: '#FF69B4'}} >Submit</Button>
             </Form>
             {errorMessage && (
                 <div>

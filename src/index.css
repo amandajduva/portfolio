@@ -62,3 +62,7 @@ footer {
 .projectImage:hover {
   border: solid 5px #FF69B4;
 }
+
+.btn {
+  width: 100%;
+}
