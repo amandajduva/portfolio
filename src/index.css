@@ -17,18 +17,48 @@ html, body, #root {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  background-color: #ffe6f7;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
 }
 
 main {
   padding: 15px;
 }
 
+.header {
+  padding: 20px;
+  font-size: 48px;
+  background-color: #FF69B4;
+  color: white; 
+}
+
 footer {
   margin-top: auto;
+  background-color: #FF69B4;
+  color: white; 
+}
+
+.nav-item {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
 }
 
 #updated-photo img {
   object-fit: contain;
   height: 300px;
   width: 300px;
+}
+
+.projectImage {
+  background-size: auto;
+  height: 400px;
+  width: 600px;
+  border: solid 5px #046307;
+}
+
+.projectImage:hover {
+  border: solid 5px #FF69B4;
 }

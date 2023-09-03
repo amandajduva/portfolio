@@ -28,7 +28,7 @@ export default function PortfolioContainer() {
 
   return (
     <>
-      <div className='d-flex justify-content-between align-items-center'>
+      <div className='d-flex justify-content-between align-items-center header'>
         <Header />
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       </div>

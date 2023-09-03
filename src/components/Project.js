@@ -1,24 +1,26 @@
 function Project({ project }) {
     const { name, repo, link, description, image } = project;
-  
+
     return (
-      <div className="p-3">
-        <img
-          src={require(`../assets/${image}`)}
-          alt={name}
-          className=""
-        />
-        <div className="">
-          <h3>
-            <a href={link}>{name}</a>{' '}
-            <a href={repo}>
-              <i className="fab fa-github"></i>
-            </a>
-          </h3>
-          <p>{description}</p>
+        <div className="p-3">
+            <div className="">
+                <h3>
+                    <a href={link}>
+                        <img
+                            src={require(`../assets/${image}`)}
+                            alt={name}
+                            className="projectImage"
+                        />
+                        {name}
+                    </a>{' '}
+                    <a href={repo}>
+                        <i className="fab fa-github"></i>
+                    </a>
+                </h3>
+                <p>{description}</p>
+            </div>
         </div>
-      </div>
     );
-  }
-  
-  export default Project;
+}
+
+export default Project;
