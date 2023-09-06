@@ -3,7 +3,7 @@ function Project({ project }) {
 
     return (
         <div className="p-3">
-            <div className="">
+            <div className="projects">
                 <h3>
                     <a href={link}>
                         <img

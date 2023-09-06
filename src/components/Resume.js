@@ -1,7 +1,7 @@
 export default function Resume() {
     return (
         <div className="resume">
-            <a href="../../assets/portfolio-resume.pdf">⭐️ Download My Resume ⭐️</a>
+            <a href="../../assets/portfolio-resume.pdf" id="resume-link">⭐️ Download My Resume ⭐️</a>
             <h4>My proficiencies:</h4>
             <ul>
                 <li>HTML</li>

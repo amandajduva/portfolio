@@ -34,9 +34,17 @@ main {
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-top: auto;
   background-color: #FF69B4;
   color: white; 
+}
+
+.footer-links {
+  text-decoration: none;
+  color: white;
 }
 
 .nav-item {
@@ -46,10 +54,20 @@ footer {
   text-decoration: none;
 }
 
+a.nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+a.nav-link:hover {
+  text-decoration: none;
+  color: white;
+}
+
 #updated-photo img {
   object-fit: contain;
   height: 300px;
-  width: 300px;
+  width: 100%;
 }
 
 .projectImage {
@@ -71,4 +89,25 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+#resume-link {
+  text-decoration: none;
+  color: #FF69B4;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  border: 3px solid #FF69B4;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.aboutMe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
