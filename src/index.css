@@ -66,3 +66,9 @@ footer {
 .btn {
   width: 100%;
 }
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
