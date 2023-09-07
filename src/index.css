@@ -36,6 +36,7 @@ main {
 footer {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
   margin-top: auto;
   background-color: #FF69B4;
@@ -55,11 +56,6 @@ footer {
 }
 
 a.nav-link {
-  text-decoration: none;
-  color: white;
-}
-
-a.nav-link:hover {
   text-decoration: none;
   color: white;
 }
@@ -97,6 +93,7 @@ a.nav-link:hover {
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 5px;
+  padding: 5px;
   border: 3px solid #FF69B4;
 }
 
@@ -104,10 +101,23 @@ a.nav-link:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  flex-basis: 25%;
+}
+
+.projects a {
+  color: black;
+  text-decoration: none;
+  padding-top: 5px;
 }
 
 .aboutMe {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
+  padding: 50px;
+}
+
+.about-info {
+  flex-basis: 75%;
 }

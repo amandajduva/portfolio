@@ -48,7 +48,7 @@ export default function Portfolio() {
 
     return (
         <div>
-            <div className="d-flex">
+            <div className="d-flex flex-wrap justify-content-center">
                 {projects.map((project) => (
                     <Project project={project} key={"project=" + project.name} />
                 ))}

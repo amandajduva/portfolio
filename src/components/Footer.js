@@ -4,21 +4,21 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="d-flex justify-content-center">
       <h2>🩷 See You Later 🩷</h2>
       <p>
-        <ul>
-          <a href="https://github.com/amandajduva"  className="footer-links">
-            <li className="logo">
-              <VscGithubAlt />
-            </li>
+        <div className="d-inline-flex">
+          <a href="https://github.com/amandajduva"  className="footer-links mx-4">
+            <p className="logo">
+              <VscGithubAlt size = {33}/>
+            </p>
           </a>
-          <a href="https://www.linkedin.com/in/amanda-duva-8aa15314a/" className="footer-links">
-            <li className="logo">
-              <AiOutlineLinkedin />
-            </li>
+          <a href="https://www.linkedin.com/in/amanda-duva-8aa15314a/" className="footer-links mx-4">
+            <p className="logo">
+              <AiOutlineLinkedin size = {33}/>
+            </p>
           </a>
-        </ul>
+        </div>
       </p>
     </footer>
   );

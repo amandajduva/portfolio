@@ -2,8 +2,8 @@ function Project({ project }) {
     const { name, repo, link, description, image } = project;
 
     return (
-        <div className="p-3">
-            <div className="projects">
+        <div className="p-3 projects">
+            <div>
                 <h3>
                     <a href={link}>
                         <img
@@ -11,6 +11,7 @@ function Project({ project }) {
                             alt={name}
                             className="projectImage"
                         />
+                        <p></p>
                         {name}
                     </a>{' '}
                     <a href={repo}>
