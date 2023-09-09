@@ -62,15 +62,15 @@ function ContactForm() {
             <Form>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label>Name</Form.Label>
-                    <Form.Control type="text" placeholder="Name" value={userName} onChange={handleInputChange} onBlur={handleValidation} />
+                    <Form.Control type="text" placeholder="Name" value={userName} onChange={handleInputChange} onBlur={handleValidation} name='userName'/>
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label>Email address</Form.Label>
-                    <Form.Control type="email" placeholder="name@example.com" value={email} onChange={handleInputChange} onBlur={handleValidation} />
+                    <Form.Control type="email" placeholder="name@example.com" value={email} onChange={handleInputChange} onBlur={handleValidation} name='email'/>
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                     <Form.Label>Message</Form.Label>
-                    <Form.Control as="textarea" rows={3} value={message} onChange={handleInputChange} onBlur={handleValidation} />
+                    <Form.Control as="textarea" rows={3} value={message} onChange={handleInputChange} onBlur={handleValidation} name='message'/>
                 </Form.Group>
                 <Button className="btn" type="button" onClick={handleFormSubmit} style={{backgroundColor: '#FF69B4', borderColor: '#FF69B4'}} >Submit</Button>
             </Form>
