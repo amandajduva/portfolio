@@ -10,7 +10,7 @@ If you wish to view the deployed application, please click on the link below. Yo
 Link to the [deployed application](https://amandajduva.github.io/portfolio/). 
 
 Screenshot of deployed application:
-![deployed application]()
+![deployed application](./src/assets/react-portfolio-screenshot.png)
 
 ## Credits
 
