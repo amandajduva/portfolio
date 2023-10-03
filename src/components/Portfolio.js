@@ -10,6 +10,13 @@ export default function Portfolio() {
             image: "minigames-screenshot.png",
         },
         {
+            name: "Fresh Paws Grooming",
+            description: "An application for users to view Fresh Paws' grooming services, their about information, schedule an appointment, and manage their pets.",
+            link: "https://freshpawsgrooming-9c1c93deb5e9.herokuapp.com/",
+            repo: "https://github.com/jalarcon95/Fresh-Paws",
+            image: "fresh_paws_services.png",
+        },
+        {
             name: "Tech Blog",
             description: "A CMS-style blog site, where developers can publish their blog posts and comment on other developers’ posts. Follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.",
             link: "https://desolate-forest-87014-6a91b6febab4.herokuapp.com/",
@@ -36,13 +43,6 @@ export default function Portfolio() {
             link: "https://amandajduva.github.io/weather-dashboard/",
             repo: "https://github.com/amandajduva/weather-dashboard",
             image: "weather-dashboard-screenshot.png",
-        },
-        {
-            name: "Word Day Scheduler",
-            description: "A simple calendar application that allows a user to save events for each hour of the day.",
-            link: "https://amandajduva.github.io/work-day-scheduler/",
-            repo: "https://github.com/amandajduva/work-day-scheduler",
-            image: "work-day-scheduler_screenshot.png",
         },
     ];
 
