@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.69317182.css",
-    "main.js": "/portfolio/static/js/main.8434c071.js",
+    "main.js": "/portfolio/static/js/main.8a47573d.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/updated-photo.png": "/portfolio/static/media/updated-photo.458d5b01e7c1c535c2dd.png",
-    "static/media/fresh_paws_services.png": "/portfolio/static/media/fresh_paws_services.99d8ad94a161ea4fed73.png",
+    "static/media/fresh-paws-services.png": "/portfolio/static/media/fresh-paws-services.7198842162049b8d038a.png",
     "static/media/react-portfolio-screenshot.png": "/portfolio/static/media/react-portfolio-screenshot.13c11c4e1fa492b1ac41.png",
     "static/media/minigames-screenshot.png": "/portfolio/static/media/minigames-screenshot.bf4abdaee1b48b22f136.png",
     "static/media/weather-dashboard-screenshot.png": "/portfolio/static/media/weather-dashboard-screenshot.bcfeaa6129a7e682f2cb.png",
@@ -15,11 +15,11 @@
     "static/media/portfolio-resume.pdf": "/portfolio/static/media/portfolio-resume.51fc8ce6f12155258baa.pdf",
     "index.html": "/portfolio/index.html",
     "main.69317182.css.map": "/portfolio/static/css/main.69317182.css.map",
-    "main.8434c071.js.map": "/portfolio/static/js/main.8434c071.js.map",
+    "main.8a47573d.js.map": "/portfolio/static/js/main.8a47573d.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69317182.css",
-    "static/js/main.8434c071.js"
+    "static/js/main.8a47573d.js"
   ]
 }
