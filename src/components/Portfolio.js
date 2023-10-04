@@ -12,9 +12,9 @@ export default function Portfolio() {
         {
             name: "Fresh Paws Grooming",
             description: "An application for users to view Fresh Paws' grooming services, their about information, schedule an appointment, and manage their pets.",
-            link: "https://freshpawsgrooming-9c1c93deb5e9.herokuapp.com/",
-            repo: "https://github.com/jalarcon95/Fresh-Paws",
-            image: "fresh_paws_services.png",
+            link: "https://freshpaws-6177244a2a25.herokuapp.com/",
+            repo: "https://github.com/amandajduva/Fresh-Paws",
+            image: "fresh-paws-services.png",
         },
         {
             name: "Tech Blog",
